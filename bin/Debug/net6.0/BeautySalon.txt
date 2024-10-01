@@ -1,0 +1,11 @@
+
+Client,11,solomonpatro223@gamil.com,patri1253,1,Ana-patricia,21,calle francisco la vega
+Client,12,johndoe123@gmail.com,doejohn123,2,John Doe,22,avenida central
+Client,13,mariarossi456@yahoo.com,rossimaria456,3,Maria Rossi,23,viale della libertà
+Client,14,peterbrown789@outlook.com,brownpeter789,4,Peter Brown,24,boulevard du parc
+Client,15,emilywang001@hotmail.com,wangemily001,5,Emily Wang,25,rue de la république
+Angajat,16,javier_5162@yahoo.com,javipedro2372,6,Pedro-Javier,1203.23,Make-up
+Angajat,17,sandrasmith923@gmail.com,sandrabeauty923,7,Sandra-Smith,1304.45,Hair-Salon
+Angajat,18,carlosruiz7621@hotmail.com,ruizcarlos7621,8,Carlos-Ruiz,1402.67,Massage
+Angajat,19,marianagomez9901@yahoo.com,gomezmariana9901,9,Mariana-Gomez,1501.88,Make-up
+Angajat,20,alexmoreno3785@outlook.com,morenoalex3785,10,Alex-Moreno,1603.12,Massage
