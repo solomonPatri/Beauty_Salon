@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Beauty_Salon.serviciiSalon;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
@@ -84,16 +85,30 @@ namespace Beauty_Salon.user
 
         }
 
+
+        public override bool Equals(object client)
+        {
+            return client is Client other && this.Name.Equals(other.Name);
+        }
+
+
+
+
         public class ClientBuilder
         {
             private readonly Client _person;
 
-            public ClientBuilder ()
+            public ClientBuilder (Client cl)
             {
-                _person = new Client();
+                _person = cl;
 
             }
+            public static ClientBuilder Create()
+            {
 
+                return new ClientBuilder(new Client());
+
+            }
             public ClientBuilder SetNamePerson(string name)
             {
                 _person.Name = name;

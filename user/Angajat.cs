@@ -86,12 +86,17 @@ namespace Beauty_Salon.user
         {
             private readonly Angajat _angajat;
 
-            public AngajatBuilder()
+            public AngajatBuilder(Angajat ang)
             {
-                _angajat = new Angajat();
+                _angajat =ang;
 
             }
+            public static AngajatBuilder Create()
+            {
 
+                return new AngajatBuilder(new Angajat());
+
+            }
             public AngajatBuilder SetnameAngajat(string name)
             {
                 _angajat.Name = name;
@@ -135,7 +140,10 @@ namespace Beauty_Salon.user
         }
 
 
-
+        public override bool Equals(object angajat)
+        {
+            return angajat is Angajat other && this.Name.Equals(other.Name);
+        }
 
 
 

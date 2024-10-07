@@ -79,8 +79,6 @@ namespace Beauty_Salon.serviciiSalon
 
         }
 
-
-
         public int CompareTo(Make_up other)
         {
             if (_id > other._id)
@@ -99,7 +97,14 @@ namespace Beauty_Salon.serviciiSalon
         }
 
 
+        public override bool Equals(object make)
+        {
+            return make is Make_up other && this.Type.Equals(other.Type);
+        }
 
+
+
+        
 
 
 

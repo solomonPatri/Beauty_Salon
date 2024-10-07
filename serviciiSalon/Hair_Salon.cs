@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Beauty_Salon.serviciiSalon
 {
-    public class Hair_Salon: IServicii
+    public class Hair_Salon : IServicii
     {
         private string _type;
         private string _eveniment;
@@ -21,7 +21,7 @@ namespace Beauty_Salon.serviciiSalon
         }
 
         public string TypePar
-        { 
+        {
             get { return _typePar; }
             set { _typePar = value; }
 
@@ -43,8 +43,9 @@ namespace Beauty_Salon.serviciiSalon
             set { _id = value; }
         }
         public float TimpParcurs
-        { get { return _timpParcurs;}
-          set { _timpParcurs = value; }
+        {
+            get { return _timpParcurs; }
+            set { _timpParcurs = value; }
         }
 
         public void Afisare()
@@ -57,7 +58,7 @@ namespace Beauty_Salon.serviciiSalon
         }
         public string ToString()
         {
-            string t = " "+base.ToString();
+            string t = " " + base.ToString();
             t += "Id: " + Id + "\n";
             t += "Type: " + Type + "\n";
             t += "Tipul de Par:: " + TypePar + "\n";
@@ -98,6 +99,13 @@ namespace Beauty_Salon.serviciiSalon
             return 0;
 
         }
+
+        public override bool Equals(object hair)
+        {
+            return hair is Hair_Salon other && this.TypePar.Equals(other.TypePar);
+        }
+
+
 
 
 

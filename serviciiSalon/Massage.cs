@@ -84,6 +84,10 @@ namespace Beauty_Salon.serviciiSalon
 
         }
 
+        public override bool Equals(object profesor)
+        {
+            return profesor is Massage other && this.Name.Equals(other.Name);
+        }
 
 
 

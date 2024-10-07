@@ -1,0 +1,4 @@
+C:\mycode\csharp\oop-basics\abstractizarea\Interfete\Beauty_Salon\obj\Debug\net6.0\Beauty_Salon.GeneratedMSBuildEditorConfig.editorconfig
+C:\mycode\csharp\oop-basics\abstractizarea\Interfete\Beauty_Salon\obj\Debug\net6.0\Beauty_Salon.AssemblyInfoInputs.cache
+C:\mycode\csharp\oop-basics\abstractizarea\Interfete\Beauty_Salon\obj\Debug\net6.0\Beauty_Salon.AssemblyInfo.cs
+C:\mycode\csharp\oop-basics\abstractizarea\Interfete\Beauty_Salon\obj\Debug\net6.0\Beauty_Salon.csproj.CoreCompileInputs.cache
